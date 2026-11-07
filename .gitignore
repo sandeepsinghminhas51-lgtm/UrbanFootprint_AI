@@ -1,0 +1,49 @@
+
+# =====================================
+# PYTHON VIRTUAL ENVIRONMENT
+# =====================================
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# =====================================
+# JUPYTER NOTEBOOKS
+# =====================================
+.ipynb_checkpoints/
+
+# =====================================
+# LARGE DATASETS
+# =====================================
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# =====================================
+# TRAINED MODEL WEIGHTS
+# =====================================
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# =====================================
+# ENVIRONMENT VARIABLES / SECRETS
+# =====================================
+.env
+.env.*
+!.env.example
+
+# =====================================
+# IDE SETTINGS
+# =====================================
+.vscode/
+
+# =====================================
+# OPERATING SYSTEM FILES
+# =====================================
+.DS_Store
+Thumbs.db
